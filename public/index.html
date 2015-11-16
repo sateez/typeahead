@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='typeAhead'>
+<head>
+	<meta charset="UTF-8">
+	<title>Type Ahead</title>
+	<link rel="stylesheet" href="css/bootstrap.css">	
+	<link rel="stylesheet" href="css/type-ahead.css">	
+	<style>
+   .custom-popup-wrapper {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    background-color: #f9f9f9;
+  }
+
+   .custom-popup-wrapper > .message {
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    color: #868686;
+  }
+
+   .custom-popup-wrapper > .dropdown-menu {
+    position: static;
+    float: none;
+    display: block;
+    min-width: 160px;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+</style>
+</head>
+<body>
+	
+	<div class="container">
+
+	<ui-view> </ui-view>
+
+	</div>	
+	
+	<script src="vendor/jquery-2.1.4.js"></script>
+	<script src="vendor/angular.js"></script>
+	<script src="vendor/angular-ui-router.js"></script>
+	<script src="vendor/bootstrap.js"></script>
+	<script src="vendor/lodash.js"></script>
+	<script src="vendor/ui-bootstrap-tpls-0.14.3.min.js"></script>
+
+	<script src="js/app.js"></script>
+</body>
+</html>
