@@ -1,2 +1,65 @@
-body{
+.clear{
+  clear:both;
+}
+.right{
+  float: right;
+}
+.left{
+  float: left;
+}
+.text-left{
+  text-align: left;
+}
+.text-right{
+  text-align: right;
+}
+.typeahead-wrapper{
+  margin-top:20px;
+}
+.categories{
+  height: 35px;
+  border-radius: 7px 0px 0px 7px;
+  background: #EAEAEA;
+  overflow: hidden;
+}
+.sub-categories{
+  width: 500px;
+  height: 35px;
+  padding-left: 9px;
+  border-radius: 0px 7px 7px 0px;
+
+}
+.product-container{
+  height:500px;
+  width:1030px;
+  border:2px solid #CCCCCC;
+  position: relative;
+    top: 20px;
+  overflow: auto;
+  border-radius: 5px;
+}
+.product{
+  height:200px;
+  width:200px;
+  background: #CCCCCC;
+  display: inline-block;
+  margin: 25px;
+  text-align: center;
+  padding-top:60px;
+}
+
+.item-mouseover{
+      height: 50px;
+    background: dimgrey;
+    color: white;
+    vertical-align: middle;
+    padding-top:10px;
+    width: 160px;
+}
+.item{
+  height: 30px;
+    vertical-align: middle;
+    padding-top:5px;
+    width: 160px;
+    padding-left:10px;
 }
